@@ -150,6 +150,11 @@
     MOBILE STYLES
    ======================================================= */
 
+header,
+footer {
+    width: 100%;
+}
+
 .button {
     display: inline-flex;
     align-items: center;
@@ -184,6 +189,13 @@
 
 .button:hover .button-icon {
     transform: translateX(8px);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-400);
+    outline: 1px dotted red;
 }
 
 /* =======================================================
