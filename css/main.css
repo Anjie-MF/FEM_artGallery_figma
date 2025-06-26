@@ -1,0 +1,161 @@
+/* =======================================================
+    GLOBAL STYLES
+   ======================================================= */
+:root {
+    /* Style Guide-Color */
+    --grey-900: #151515;
+    --grey-700: #444444;
+    --white: #ffffff;
+    --gold-500: #D5966c;
+
+    /* Style Guide-Typography */
+    --font-big-shoulders: "Big Shoulders", sans-serif;
+    --font-outfit: "Outfit", sans-serif;
+
+    /* Mobile Overrides */
+    --preset1-font-size: 3.75rem;
+    --preset1-line-height: 90%;
+
+    --spacing-025: 2px;
+    --spacing-050: 4px;
+    --spacing-075: 6px;
+    --spacing-100: 8px;
+    --spacing-125: 10px;
+    --spacing-150: 12px;
+    --spacing-200: 16px;
+    --spacing-250: 20px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-800: 64px;
+    --spacing-1000: 80px;
+
+    --radius4: 4px;
+    --radius6: 6px;
+    --radius8: 8px;
+    --radius10: 10px;
+    --radius12: 12px;
+    --radius16: 16px;
+    --radius20: 20px;
+    --radius24: 24px;
+    --radius-full: 999px;
+}
+
+/* Tablet Override */
+@media (min-width: 768px) {
+    :root {
+        --preset1-font-size: 4.375rem;
+        --preset1-line-height: 90%;
+
+        --preset2-font-size: 3.438rem;
+        --preset2-line-height: 90%;
+
+        --preset3-font-size: 3.125rem;
+        --preset3-line-height: 90%;
+    }
+}
+
+/* Desktop Defaults */
+@media (min-width: 1024px) {
+    :root {
+        --preset1-font-size: 6rem;
+        --preset1-line-height: 90%;
+
+        --preset2-font-size: 4.375rem;
+        --preset2-line-height: 100%;
+
+        --preset3-font-size: 3.75rem;
+        --preset3-line-height: 100%;
+
+        --preset4-font-size: 2.25rem;
+        --preset4-line-height: 100%;
+
+        --preset5-font-family: var(--font-outfit);
+        --preset5-font-weight: 300;
+        --preset5-font-size: 1.375rem;
+        --preset5-line-height: 140%;
+
+        --preset6-font-weight: 800;
+        --preset6-font-size: 1.25rem;
+        --preset6-line-height: 100%;
+        --preset6-letter-spacing: 3.64px;
+
+        --preset7-font-family: var(--font-outfit);
+        --preset7-font-weight: 300;
+        --preset7-font-size: 1.125rem;
+        --preset7-line-height: 140%;
+    }
+}
+
+/* Typography Preset Classes */
+.text-preset-1 {
+    font-family: var(--font-big-shoulders);
+    font-size: var(--preset1-font-size);
+    line-height: var(--preset1-line-height);
+    font-weight: 900;
+    color: var(--grey-900);
+}
+
+.text-preset-2 {
+    font-family: var(--font-big-shoulders);
+    font-size: var(--preset2-font-size);
+    line-height: var(--preset2-line-height);
+    font-weight: 900;
+    color: var(--grey-900);
+}
+
+.text-preset-3 {
+    font-family: var(--font-big-shoulders);
+    font-size: var(--preset3-font-size);
+    line-height: var(--preset3-line-height);
+    font-weight: 900;
+    color: var(--grey-900);
+}
+
+.text-preset-4 {
+    font-family: var(--font-big-shoulders);
+    font-size: var(--preset4-font-size);
+    line-height: var(--preset4-line-height);
+    font-weight: 900;
+    color: var(--grey-900);
+}
+
+.text-preset-5 {
+    font-family: var(--preset5-font-family);
+    font-size: var(--preset5-font-size);
+    line-height: var(--preset5-line-height);
+    font-weight: var(--preset5-font-weight);
+    color: var(--grey-700);
+}
+
+.text-preset-6 {
+    font-family: var(--font-outfit);
+    font-size: var(--preset6-font-size);
+    line-height: var(--preset6-line-height);
+    font-weight: var(--preset6-font-weight);
+    letter-spacing: var(--preset6-letter-spacing);
+    color: var(--grey-900);
+}
+
+.text-preset-7 {
+    font-family: var(--preset7-font-family);
+    font-size: var(--preset7-font-size);
+    line-height: var(--preset7-line-height);
+    font-weight: var(--preset7-font-weight);
+    color: var(--grey-700);
+}
+
+/* =======================================================
+    MOBILE STYLES
+   ======================================================= */
+
+/* =======================================================
+    TABLET STYLES
+   ======================================================= */
+@media (min-width: 768px) {}
+
+/* =======================================================
+   DESKTOP STYLES 
+   ========================================================*/
+@media (min-width: 1024px) {}
