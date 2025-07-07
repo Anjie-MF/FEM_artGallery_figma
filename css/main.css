@@ -155,6 +155,11 @@ footer {
     width: 100%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .button {
     display: inline-flex;
     align-items: center;
@@ -191,13 +196,13 @@ main {
     grid-template-columns: 1fr;
     gap: var(--spacing-400);
     outline: 1px dotted red;
-    /* padding: 20px; */
     align-items: center;
     justify-content: center;
 }
 
 h1,
-h2 {
+h2,
+h3 {
     text-transform: uppercase;
 }
 
@@ -212,6 +217,8 @@ h2 {
 .bold {
     font-weight: 900
 }
+
+
 
 /* =======================================================
     TABLET STYLES
