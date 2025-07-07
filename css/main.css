@@ -182,11 +182,6 @@ footer {
     transition: all 0.3s ease;
 }
 
-/* .button-icon img {
-  width: 1.5rem;
-  height: auto;
-} */
-
 .button:hover .button-icon {
     transform: translateX(8px);
 }
@@ -196,6 +191,26 @@ main {
     grid-template-columns: 1fr;
     gap: var(--spacing-400);
     outline: 1px dotted red;
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+.tag-line {
+    font-style: italic;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 900
 }
 
 /* =======================================================
