@@ -155,6 +155,24 @@ footer {
     width: 100%;
 }
 
+/* 
+=======================
+    Hero Section 
+======================= */
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text-content {
+    outline: 1px solid purple;
+}
+
 .button {
     display: inline-flex;
     align-items: center;
@@ -182,21 +200,23 @@ footer {
     transition: all 0.3s ease;
 }
 
-/* .button-icon img {
-  width: 1.5rem;
-  height: auto;
-} */
-
 .button:hover .button-icon {
     transform: translateX(8px);
 }
 
+/* =======================
+    Main Section 
+=======================  */
 main {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--spacing-400);
-    outline: 1px dotted red;
 }
+
+/* =======================
+    Footer Section 
+======================= */
+
 
 /* =======================================================
     TABLET STYLES
