@@ -150,14 +150,15 @@
     MOBILE STYLES
    ======================================================= */
 
-header,
+/* header,
 footer {
     width: 100%;
-}
+} */
 
-img {
+.hero-img img{
     max-width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .button {
@@ -215,7 +216,7 @@ h3 {
 }
 
 .bold {
-    font-weight: 900
+    font-weight: 900;
 }
 
 
