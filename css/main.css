@@ -155,10 +155,19 @@ footer {
     width: 100%;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-400);
+}
+
 /* 
 =======================
     Hero Section 
 ======================= */
+.hero {
+    outline: 3px solid red;
+}
 
 .hero-image {
     width: 100%;
@@ -167,10 +176,6 @@ footer {
 .hero-image img {
     width: 100%;
     height: 100%;
-}
-
-.hero-text-content {
-    outline: 1px solid purple;
 }
 
 .button {
@@ -204,18 +209,48 @@ footer {
     transform: translateX(8px);
 }
 
-/* =======================
-    Main Section 
-=======================  */
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--spacing-400);
+/* 
+=======================
+    Gallery Section 
+======================= */
+.gallery {
+    outline: 3px solid yellow;
+}
+
+/* 
+=======================
+    Inspiration Section 
+======================= */
+
+.inspiration {
+    outline: 3px solid purple;
 }
 
 /* =======================
     Footer Section 
 ======================= */
+
+footer {
+    background-color: #151515;
+    display: flex;
+    padding: 40px;
+    align-items: flex-start;
+    margin: 0;
+    flex-direction: column;
+}
+
+footer .text-preset-7 {
+    color: var(--white);
+}
+
+.socials ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 
 /* =======================================================
     TABLET STYLES
