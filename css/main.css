@@ -15,6 +15,18 @@
     /* Mobile Overrides */
     --preset1-font-size: 3.75rem;
     --preset1-line-height: 90%;
+    --preset2-font-size: 3.75rem;
+    --preset2-line-height: 100%;
+    --preset3-font-size: 2.25rem;
+    --preset3-line-height: 100%;
+    --preset4-font-size: 2.25rem;
+    --preset4-line-height: 100%;
+    --preset5-font-size: 1.375rem;
+    --preset5-line-height: 140%;
+    --preset6-font-size: 1.25rem;
+    --preset6-line-height: 100%;
+    --preset7-font-size: 1.125rem;
+    --preset7-line-height: 140%;
 
     --spacing-025: 2px;
     --spacing-050: 4px;
@@ -40,52 +52,6 @@
     --radius20: 20px;
     --radius24: 24px;
     --radius-full: 999px;
-}
-
-/* Tablet Override */
-@media (min-width: 768px) {
-    :root {
-        --preset1-font-size: 4.375rem;
-        --preset1-line-height: 90%;
-
-        --preset2-font-size: 3.438rem;
-        --preset2-line-height: 90%;
-
-        --preset3-font-size: 3.125rem;
-        --preset3-line-height: 90%;
-    }
-}
-
-/* Desktop Defaults */
-@media (min-width: 1024px) {
-    :root {
-        --preset1-font-size: 6rem;
-        --preset1-line-height: 90%;
-
-        --preset2-font-size: 4.375rem;
-        --preset2-line-height: 100%;
-
-        --preset3-font-size: 3.75rem;
-        --preset3-line-height: 100%;
-
-        --preset4-font-size: 2.25rem;
-        --preset4-line-height: 100%;
-
-        --preset5-font-family: var(--font-outfit);
-        --preset5-font-weight: 300;
-        --preset5-font-size: 1.375rem;
-        --preset5-line-height: 140%;
-
-        --preset6-font-weight: 800;
-        --preset6-font-size: 1.25rem;
-        --preset6-line-height: 100%;
-        --preset6-letter-spacing: 3.64px;
-
-        --preset7-font-family: var(--font-outfit);
-        --preset7-font-weight: 300;
-        --preset7-font-size: 1.125rem;
-        --preset7-line-height: 140%;
-    }
 }
 
 /* Typography Preset Classes */
@@ -144,6 +110,53 @@
     line-height: var(--preset7-line-height);
     font-weight: var(--preset7-font-weight);
     color: var(--grey-700);
+}
+
+
+/* Tablet Override */
+@media (min-width: 768px) {
+    :root {
+        --preset1-font-size: 4.375rem;
+        --preset1-line-height: 90%;
+
+        --preset2-font-size: 3.438rem;
+        --preset2-line-height: 90%;
+
+        --preset3-font-size: 3.125rem;
+        --preset3-line-height: 90%;
+    }
+}
+
+/* Desktop Defaults */
+@media (min-width: 1024px) {
+    :root {
+        --preset1-font-size: 6rem;
+        --preset1-line-height: 90%;
+
+        --preset2-font-size: 4.375rem;
+        --preset2-line-height: 100%;
+
+        --preset3-font-size: 3.75rem;
+        --preset3-line-height: 100%;
+
+        --preset4-font-size: 2.25rem;
+        --preset4-line-height: 100%;
+
+        --preset5-font-family: var(--font-outfit);
+        --preset5-font-weight: 300;
+        --preset5-font-size: 1.375rem;
+        --preset5-line-height: 140%;
+
+        --preset6-font-weight: 800;
+        --preset6-font-size: 1.25rem;
+        --preset6-line-height: 100%;
+        --preset6-letter-spacing: 3.64px;
+
+        --preset7-font-family: var(--font-outfit);
+        --preset7-font-weight: 300;
+        --preset7-font-size: 1.125rem;
+        --preset7-line-height: 140%;
+    }
 }
 
 /* =======================================================
@@ -226,6 +239,12 @@ main {
     outline: 3px solid purple;
 }
 
+.inspiration .text-preset-2 {
+    text-transform: uppercase;
+}
+
+.inspiration .text-preset-7 {}
+
 /* =======================
     Footer Section 
 ======================= */
@@ -233,7 +252,7 @@ main {
 footer {
     background-color: #151515;
     display: flex;
-    padding: 40px;
+    padding: 48px 24px;
     align-items: flex-start;
     margin: 0;
     flex-direction: column;
