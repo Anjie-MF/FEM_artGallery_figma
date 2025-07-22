@@ -112,6 +112,9 @@
     color: var(--grey-700);
 }
 
+.text-preset-1 {
+    margin: 25px 0px;
+}
 
 /* Tablet Override */
 @media (min-width: 768px) {
@@ -178,9 +181,6 @@ main {
 =======================
     Hero Section 
 ======================= */
-.hero {
-    outline: 3px solid red;
-}
 
 .hero-image {
     width: 100%;
@@ -188,7 +188,10 @@ main {
 
 .hero-image img {
     width: 100%;
-    height: auto;
+}
+
+.hero-text-content {
+    padding-inline: 2em;
 }
 
 .button {
