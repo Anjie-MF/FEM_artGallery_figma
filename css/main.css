@@ -229,8 +229,17 @@ main {
 =======================
     Gallery Section 
 ======================= */
-.gallery {
-    outline: 3px solid yellow;
+
+.gallery-image {
+    width: 100%;
+}
+
+.gallery-image img {
+    width: 100%;
+}
+
+.text-preset-3 {
+    text-transform: uppercase;
 }
 
 /* 
@@ -238,15 +247,32 @@ main {
     Inspiration Section 
 ======================= */
 
-.inspiration {
-    outline: 3px solid purple;
+.inspiration-image {
+    width: 100%;
 }
 
-.inspiration .text-preset-2 {
+.inspiration-image img {
+    width: 100%;
+}
+
+/* .inspiration-image picture + picture {
+    margin-bottom: 20px;
+} DONT FORGET TO ADD SPACING BETWEEN IMAGES>>>CIRCLE BACK HERE*/
+
+.inspiration-text-content {
+    background-color: #151515;
+    padding:2em;
+
+}
+
+.inspiration-text-content .text-preset-3 {
+    color: var(--white);
     text-transform: uppercase;
 }
 
-.inspiration .text-preset-7 {}
+.inspiration-text-content .text-preset-7 {
+    color: var(--white);
+}
 
 /* =======================
     Footer Section 
@@ -255,9 +281,9 @@ main {
 footer {
     background-color: #151515;
     display: flex;
-    padding: 48px 24px;
+    padding: 2em;
     align-items: flex-start;
-    margin: 0;
+    margin-top: 100px;
     flex-direction: column;
 }
 
