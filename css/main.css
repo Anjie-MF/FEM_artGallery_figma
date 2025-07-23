@@ -194,6 +194,11 @@ main {
     padding-inline: 2em;
 }
 
+.hero-text-content .text-preset-7 {
+    margin: 32px 0;
+    outline: 1px solid red;
+}
+
 .button {
     display: inline-flex;
     align-items: center;
@@ -208,8 +213,8 @@ main {
 }
 
 .button-text {
-    padding: 2em 1.5em;
-
+    padding: 1em;
+    color: var(--white);
 }
 
 .button-icon {
@@ -217,7 +222,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2em;
+    padding: 1em;
     transition: all 0.3s ease;
 }
 
@@ -261,7 +266,7 @@ main {
 
 .inspiration-text-content {
     background-color: #151515;
-    padding:2em;
+    padding: 2em;
 
 }
 
