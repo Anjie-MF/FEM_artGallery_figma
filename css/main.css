@@ -191,12 +191,11 @@ main {
 }
 
 .hero-text-content {
-    padding-inline: 2em;
+    padding-inline: 1em;
 }
 
 .hero-text-content .text-preset-7 {
-    margin: 32px 0;
-    outline: 1px solid red;
+    margin: 35px 0;
 }
 
 .button {
@@ -217,6 +216,10 @@ main {
     color: var(--white);
 }
 
+.button-text:hover {
+    background-color: var(--gold-500);
+}
+
 .button-icon {
     background-color: var(--gold-500);
     display: flex;
@@ -224,6 +227,10 @@ main {
     justify-content: center;
     padding: 1em;
     transition: all 0.3s ease;
+}
+
+.button-icon:hover {
+    background-color: black;
 }
 
 .button:hover .button-icon {
@@ -234,6 +241,9 @@ main {
 =======================
     Gallery Section 
 ======================= */
+.gallery {
+    margin-top: 100px;
+}
 
 .gallery-image {
     width: 100%;
@@ -252,22 +262,30 @@ main {
     Inspiration Section 
 ======================= */
 
-.inspiration-image {
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 100%;
 }
 
-.inspiration-image img {
+.right-column {
     width: 100%;
 }
 
-/* .inspiration-image picture + picture {
-    margin-bottom: 20px;
-} DONT FORGET TO ADD SPACING BETWEEN IMAGES>>>CIRCLE BACK HERE*/
+.picture{
+    width: 100%;
+}
 
 .inspiration-text-content {
     background-color: #151515;
-    padding: 2em;
-
+    padding: 1em;
 }
 
 .inspiration-text-content .text-preset-3 {
